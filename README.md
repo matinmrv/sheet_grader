@@ -46,6 +46,7 @@ python sheet_grader.py --image /path/to/the/image.jpg
 * `height and width`: Dimensions for resizing the image.
 * `questions` and answers: Number of questions and answer choices.
 * `ans_dict`: Dictionary mapping question indices to correct answer indices.
-
+* ## NOTE: YOU NEED TO UPDATE questions, answers AND ans_dict FOR EVERY PICTURE BASED ON ROWS AND COLUMNS.
+  
 ## Output
 The script will display images, such as contours, document view, question box, and thresholded images. The final output is the evaluation score.
